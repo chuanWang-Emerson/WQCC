@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">CNTSN5-L6T6KY04</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJXGX6NaPxkC3bo05kf3+XgAAAAACAAAAAAADZgAAwAAAABAAAADWzpwl1N2wCpud6PH510C4AAAAAASAAACgAAAAEAAAAF7ayhi4ShjOZH8622WxdLmIAAAA10HW6pl+G7HTKDjQh4Pew/f0G9HDphfK9CWumGEIZdTRHYkd8YoMnJ1yv1Ok6IElxrQdNZnPCU7/zQBR3CUrhQZWt7eXh+n244JMfFY1KhIQSEuZqtKijczGyzFBBBBcGCwza3Z4sOqUo6R42om/KCqqN6NIGRiJO5AGZaIcol93VCEdOXvynRQAAABjMG/eEbSsq4h+kYGNTHXzcvC4xg==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJXGX6NaPxkC3bo05kf3+XgAAAAACAAAAAAADZgAAwAAAABAAAACGM62UU3SWzm+Y4MREbi0zAAAAAASAAACgAAAAEAAAAMsMcRZW1oyTWk1T4ZHFlW2IAAAA3RMqD3R768vgBRCdHXaX+7oNZEt/sbeGKo3wY8JdrlqRQGjZarxjLztNEh1djgypBpV9nRazxatVP9bUfdV+3yEnS6Q0FrObxLHBbqb/Txw3s/8f2Qa3ASYOzZbveRRLy/Nr6MccCpbpKcOfZCF515+XesGSKlGIknFzxzLWClZ0R4Qc4f/rGhQAAADL69xVQInnrpwDgWGYUch2IphE9w==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -157,21 +157,6 @@
                 <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
               </SSIS:Properties>
             </SSIS:Parameter>
-            <SSIS:Parameter SSIS:Name="CM.Target.ConnectionString">
-              <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">
-                </SSIS:Property>
-                <SSIS:Property SSIS:Name="CreationName">
-                </SSIS:Property>
-                <SSIS:Property SSIS:Name="Description">
-                </SSIS:Property>
-                <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="Value">Data Source=10.165.75.94;User ID=MDS_Package_User;Initial Catalog=MDS_WQ_CC;Persist Security Info=True;TrustServerCertificate=True;Application Name=SSIS-Package-{35A4DABD-3BC8-4A4A-BABD-043247C4BDA4}10.165.75.94.MDS_WQ_CC.MDS_Package_User;</SSIS:Property>
-                <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
-              </SSIS:Properties>
-            </SSIS:Parameter>
             <SSIS:Parameter SSIS:Name="CM.Target.ConnectUsingManagedIdentity">
               <SSIS:Properties>
                 <SSIS:Property SSIS:Name="ID">
@@ -269,10 +254,10 @@
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">45</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">49</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{E96FB09D-9B5F-492A-A30B-68533D76DFDA}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{2E4D7578-510F-408B-B020-379D212486A2}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
