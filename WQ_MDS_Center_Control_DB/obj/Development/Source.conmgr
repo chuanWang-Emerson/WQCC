@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Source"
+  DTS:DTSID="{6A14EB99-0226-4E7D-9D15-39C3D09533C9}"
+  DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <DTS:PropertyExpression
+    DTS:Name="ConnectionString">"Data Source=" + @[$Project::Source_DB_Server] + ";Initial Catalog=" + @[$Project::Source_DB_Name] + ";User ID=" + @[$Project::Source_DB_User] + ";Password=" + @[$Project::Source_DB_Pwd]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=zaps1fcdmfgdb0;User ID=MDS_Admin;Initial Catalog=MDS;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJXGX6NaPxkC3bo05kf3+XgAAAAACAAAAAAADZgAAwAAAABAAAADGBtETlMFUAEQdz1qewgpAAAAAAASAAACgAAAAEAAAABU+H8mXBcR628MeMSs7HaF4AAAAm/NsT2+TaHn5kRI7/Owsr9sLxJnK3fXVHqFOPX5/Lh6c3uKtfb/EkJ2bJQbNOOGC3iI6UQ5+9XFXG72aPaimEh5vrA5RFMt/5c/TYfQKFRADpIcdpj8x0Mo1Ea2mUZnBQR3g6/+DzSGyf7SaYJHDkQYXHmz9dCXlFAAAAF3BCJkFse/uodajxMRKk3wwFQfa</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

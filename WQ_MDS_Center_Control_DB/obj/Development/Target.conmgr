@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Target"
+  DTS:DTSID="{35A4DABD-3BC8-4A4A-BABD-043247C4BDA4}"
+  DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=10.165.75.94;User ID=MDS_Package_User;Initial Catalog=MDS_WQ_CC;Persist Security Info=True;TrustServerCertificate=True;Application Name=SSIS-Package-{35A4DABD-3BC8-4A4A-BABD-043247C4BDA4}10.165.75.94.MDS_WQ_CC.MDS_Package_User;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJXGX6NaPxkC3bo05kf3+XgAAAAACAAAAAAADZgAAwAAAABAAAAAPZfKjawVzsTiannrcCWV3AAAAAASAAACgAAAAEAAAAG/50mchMzsNDYMbdLRObGSAAAAAMzE3kRVsDz4c2xBLMq0VRKPP8SPGKR7Qpho0BO8UUUxPICEs9kLuDKnsZjDbWrUAtCtEXL6U8O9XZXl3AVAhSNmvy6nuHAJLyOKrGlfX0Fqs+1eHAIX99OZLK3nF0o19WR8UOixz/ied2a2SEXhT5rj5HkXuljr4NqBaOKGQQ+oUAAAAggK31EQ8YjJaYhMh/A34D4+2P6c=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
